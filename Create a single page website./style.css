@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap");
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: #505d61;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    z-index: 1;
+}
+nav .logo{
+    font-size:30px;
+    font-weight:bold;
+    letter-spacing:1.5px;
+}
+nav .logo p{
+    float: left;
+    color: #fff;
+    text-transform:uppercase;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a{
+    color:#fff;
+    text-decoration:none;
+    font-size:18px;
+    text-transform:uppercase;
+    padding:0px 32px;
+}
+nav ul li a:hover{
+    color:#c0d96f;
+}
+.container{
+	position:relative;
+	text-align:center;
+	color:white;
+	height:200px;
+	width:100%;
+}
+.bottom-left{
+	position:absolute;
+	bottom:1px;
+	left:550px;
+	font-family: 'Brush Script MT',cursive;
+	font-size:100px
+}
+img{
+	height:500px;
+	width:100%;
+	object-fit:cover;
+}
+.container1{
+	position:relative;
+	text-align:center;
+	color:white;
+	height:200px;
+	width:100%;
+}
+.bottom-left1{
+	position:absolute;
+	bottom:1px;
+	left:550px;
+	font-family: 'Brush Script MT',cursive;
+	font-size:100px
+}
+img.container1{
+	height:500px;
+	width:100%;
+	object-fit:cover;
+}
+.container2{
+	position:relative;
+	text-align:center;
+	color:white;
+	height:200px;
+	width:100%;
+}
+.bottom-left2{
+	position:absolute;
+	bottom:1px;
+	left:550px;
+	font-family: 'Brush Script MT',cursive;
+	font-size:100px
+}
+img.container2{
+	height:500px;
+	width:100%;
+	object-fit:cover;
+}
+.container3{
+	position:relative;
+	text-align:center;
+	color:white;
+	height:200px;
+	width:100%;
+}
+.bottom-left3{
+	position:absolute;
+	bottom:1px;
+	left:550px;
+	font-family: 'Brush Script MT',cursive;
+	font-size:100px
+}
+img.container3{
+	height:500px;
+	width:100%;
+	object-fit:cover;
+}
+.container4{
+	position:relative;
+	text-align:center;
+	color:white;
+	height:200px;
+	width:100%;
+}
+.bottom-left4{
+	position:absolute;
+	bottom:1px;
+	left:550px;
+	font-family: 'Brush Script MT',cursive;
+	font-size:100px
+}
+img.container4{
+	height:500px;
+	width:100%;
+	object-fit:cover;
+}
+.container5{
+	position:relative;
+	text-align:center;
+	color:white;
+	height:200px;
+	width:100%;
+}
+.bottom-left5{
+	position:absolute;
+	bottom:1px;
+	left:550px;
+	font-family: 'Brush Script MT',cursive;
+	font-size:100px
+}
+img.container5{
+	height:500px;
+	width:100%;
+	object-fit:cover;
+}
+.main{
+}
+	
+.cards{
+	width: 20%;
+	border-radius: 5px;
+	display: inline-block;
+	background-color: darkgray;
+	margin: 40px;
+	box-shadow: 2px 2px 10px black;
+}
+.image img{
+	width:100%;
+	border-top-right-radius:5px;
+	border-top-left-radius:5px;
+}
+.title{
+	text-align:center;
+	padding:5px;
+}
+.des{
+	text-align:center;
+	padding: 4px;
+}
+button{
+	margin-top:20px;
+	margin-bottom:30px;
+	background-color:white;
+	border:1px solid black;
+	padding: 5px;
+	border-radius:5px;
+}
+button:hover{
+	background-color:black;
+	color:white;
+	transition:.5s;
+	cursor
+}
+.Offers{
+	font-weight:bold;
+	text-align:center;
+	font-size:40px;
+	color:black;
+	letter-spacing:2px;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color:green;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=date] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color:green;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius:4px;
+  box-sizing: border-box;
+}
+input[type=submit], select{
+  width: 100%;
+  color: white;
+  background-color:green;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display:inline-block;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.contact {
+  left: auto;
+  width: 100px;
+  height: 120px;
+  border: 3px solid blue;
+} 
+
